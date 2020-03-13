@@ -2,7 +2,7 @@
 
 We all do unit/integration tests. 
 
-Sometimes we find yourself in need of running a single instance of whatever we need inside a container from within our test classes.[ Postgresql, elasticsearch, selenium browsers..].
+Sometimes we find ourselves in need of running a single instance of whatever we need inside a container from within our test classes.[ Postgresql, elasticsearch, selenium browsers..].
 
 Or perhaps bootstrap our own application, scaling it up during a jenkins job then gracefully shutting it down?
 
