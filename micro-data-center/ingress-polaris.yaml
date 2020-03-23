@@ -1,0 +1,15 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: polaris
+  namespace: monitoring
+spec:
+  rules:
+  - host: polaris.kyoumatrix.io
+    http:
+      paths:
+      - backend:
+          serviceName: polaris-dashboard
+          servicePort: 80
+        path: /
+
