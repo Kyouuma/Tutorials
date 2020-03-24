@@ -1,5 +1,23 @@
-### Random cool stuff i encounter during my day job. 
+# Random Tutorials
 
-> singleton-testcontainers [ For Unit & Functional Testing. Framework For JAVA Only ].
+I have a diverse background, ranging from electronics, security to devops. Combined with a love for [writing](https://kyouuma.blogspot.com/) This repository was born. 
 
-> gitlab-clone-all-groups [ There's no feature available in Gitlab CE to clone a whole group. You can tweak the script to clone all your gitlab server. ] 
+A collection of home made scripts, tutorials and good practices.
+
+## Content
+
+1. [gitlab-clone-all-groups](https://github.com/Kyouuma/Tutorials/tree/master/gitlab-clone-all-groups): A script to clone a gitlab server, namespace, group. you can adjust it to your preferences. 
+2. [micro-data-center](https://github.com/Kyouuma/Tutorials/tree/master/micro-data-center): Tag along on my blog to make your laptop a production grade environment for kubernetes development.
+3. [singleton-testcontainers](https://github.com/Kyouuma/Tutorials/tree/master/singleton-testcontainers): Embrace the power of containers in automated testing for java applications. I focused in this example on the singleton pattern.
+
+
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
