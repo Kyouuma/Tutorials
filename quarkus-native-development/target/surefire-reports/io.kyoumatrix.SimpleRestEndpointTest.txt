@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.kyoumatrix.SimpleRestEndpointTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.331 s - in io.kyoumatrix.SimpleRestEndpointTest
