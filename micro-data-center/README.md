@@ -1,6 +1,8 @@
 ### k-native tutorial 
 In this tutorial i will demonstrate how you can turn your personal computer into a production grade environment for live k-native development.
 
+link to tutorial[https://kyouuma.blogspot.com/2020/03/its-corona-season-and-im-sitting-in-my.html]
+
 
         Introduction
         Installing the underlying OS.
