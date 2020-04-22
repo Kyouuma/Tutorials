@@ -17,7 +17,6 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.Optional;
-
 /**
  * Simple REST Resource that consumes information provided by a JWT token.
  *
