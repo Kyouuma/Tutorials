@@ -1,0 +1,128 @@
+Apr 22, 2020 2:33:47 PM com.redhat.quarkus.ls.QuarkusLanguageServer initialize
+INFO: Initializing Quarkus server 0.0.4-20191120-1547 with /var/lib/snapd/snap/intellij-idea-ultimate/217/jbr
+Apr 22, 2020 2:34:42 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {9} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+Apr 22, 2020 2:34:43 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {15} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+Apr 22, 2020 2:34:45 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {11} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+Apr 22, 2020 2:34:46 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {3} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+Apr 22, 2020 2:34:48 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {18} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+Apr 22, 2020 2:34:48 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {25} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+Apr 22, 2020 2:34:52 PM com.redhat.quarkus.services.QuarkusHover doHover
+SEVERE: In QuarkusHover, position error
+com.redhat.quarkus.ls.commons.BadLocationException: The character value, {25} of the line8}, is out of bounds.
+	at com.redhat.quarkus.ls.commons.TreeLineTracker.getOffsetAt(TreeLineTracker.java:1214)
+	at com.redhat.quarkus.ls.commons.TextDocument.offsetAt(TextDocument.java:76)
+	at com.redhat.quarkus.model.Node.findNodeAt(Node.java:202)
+	at com.redhat.quarkus.services.QuarkusHover.doHover(QuarkusHover.java:59)
+	at com.redhat.quarkus.services.QuarkusLanguageService.doHover(QuarkusLanguageService.java:98)
+	at com.redhat.quarkus.ls.QuarkusTextDocumentService.lambda$null$3(QuarkusTextDocumentService.java:164)
+	at java.base/java.util.concurrent.CompletableFuture.biApply(CompletableFuture.java:1236)
+	at java.base/java.util.concurrent.CompletableFuture$BiApply.tryFire(CompletableFuture.java:1205)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+

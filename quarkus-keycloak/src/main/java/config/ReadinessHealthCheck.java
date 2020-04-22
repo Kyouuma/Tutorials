@@ -1,3 +1,9 @@
+/*
+ * MIT License
+ *
+ * Copyright (@Kyouuma) [2020] [oussamahafsi.official@gmail.com]
+ */
+
 package config;
 
 
@@ -12,6 +18,12 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
+/**
+ MicroProfile Health allows applications to provide information about their state to external
+ viewers which is typically useful in cloud environments where automated processes
+ must be able to determine whether the application should be discarded or restarted.
+ @Readiness - the Readiness check accessible at /health/ready
+ */
 @Readiness
 @ApplicationScoped
 public class ReadinessHealthCheck implements HealthCheck {
@@ -27,10 +39,11 @@ public class ReadinessHealthCheck implements HealthCheck {
         HealthCheckResponseBuilder responseBuilder = HealthCheckResponse.named("keycloak connection health check");
         try {
             simulateKeycloakConnectionVerification();
-            responseBuilder.up();
+            responseBuilder.up()
+                    .withData("kc url",REALM_URL)
+                    .build();
 
         }catch (IllegalStateException e){
-            simulateKeycloakConnectionVerification();
             responseBuilder.down();
         }
 
@@ -38,6 +51,9 @@ public class ReadinessHealthCheck implements HealthCheck {
         return HealthCheckResponse.up("keycloak connection health check");
     }
 
+    /**
+     * Check if keycloak realm is present
+     */
     private void simulateKeycloakConnectionVerification() {
         try {
             kc_present = false;

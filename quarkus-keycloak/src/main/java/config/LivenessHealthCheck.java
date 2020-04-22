@@ -1,3 +1,10 @@
+
+/*
+ * MIT License
+ *
+ * Copyright (@Kyouuma) [2020] [oussamahafsi.official@gmail.com]
+ */
+
 package config;
 
 import org.eclipse.microprofile.health.HealthCheck;
