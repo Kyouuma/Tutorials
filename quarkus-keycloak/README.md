@@ -68,8 +68,7 @@ If you want to learn more about building native executables, please consult http
 
 ## Exporting keycloak Realm with users
 
-Keycloak provides us with a script "standalone.sh" that bootstraps a keycloak instance to export our realm. the below command will tell keycloak
-run with an offset of 100 otherwise it will find the ports used by the actual container and to export kyoumatrix realm with its users into a single file under /tmp folder.
+Keycloak provides us with a script "standalone.sh" that bootstraps a keycloak instance to export our realm. the below command we'll tell keycloak to run with an offset of 100 otherwise it will find the ports used by the actual container and to export kyoumatrix realm with its users into a single file under /tmp folder.
 ```$xslt
 docker exec -it keycloak /opt/jboss/keycloak/bin/standalone.sh -Djboss.socket.binding.port-offset=100 -Dkeycloak.migration.action=export -Dkeycloak.migration.provider=singleFile -Dkeycloak.migration.realmName=kyoumatrix -Dkeycloak.migration.usersExportStrategy=REALM_FILE -Dkeycloak.migration.provider=dir -Dkeycloak.migration.dir=/tmp
 docker cp -R keycloak:/tmp/ .
