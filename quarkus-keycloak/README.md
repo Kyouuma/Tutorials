@@ -41,9 +41,9 @@ KC_ACCESS_TOKEN=$(echo $KC_RESPONSE | jq -r .access_token)
 #### Endpoints - /data/user should work, /data/editor /data/admin
 
 ```
-curl -v -H "Authorization: Bearer $KC_ACCESS_TOKEN" http://localhost:8082/data/user
-curl -v -H "Authorization: Bearer $KC_ACCESS_TOKEN" http://localhost:8082/data/editor
-curl -v -H "Authorization: Bearer \$KC_ACCESS_TOKEN" http://localhost:8082/data/admin
+curl -v -H "Authorization: Bearer $KC_ACCESS_TOKEN" http://localhost:8082/api/data/user
+curl -v -H "Authorization: Bearer $KC_ACCESS_TOKEN" http://localhost:8082/api/data/editor
+curl -v -H "Authorization: Bearer \$KC_ACCESS_TOKEN" http://localhost:8082/api/data/admin
 ```
 
 ## Packaging and running the application

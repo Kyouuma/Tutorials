@@ -19,10 +19,11 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- MicroProfile Health allows applications to provide information about their state to external
- viewers which is typically useful in cloud environments where automated processes
- must be able to determine whether the application should be discarded or restarted.
- @Readiness - the Readiness check accessible at /health/ready
+ * MicroProfile Health allows applications to provide information about their state to external
+ * viewers which is typically useful in cloud environments where automated processes
+ * must be able to determine whether the application should be discarded or restarted.
+ *
+ * @Readiness - the Readiness check accessible at /health/ready
  */
 @Readiness
 @ApplicationScoped
@@ -30,25 +31,24 @@ public class ReadinessHealthCheck implements HealthCheck {
 
     @ConfigProperty(name = "mp.jwt.verify.issuer")
     public String REALM_URL;
-    private  URL url;
+    private URL url;
     private boolean kc_present;
 
 
     @Override
     public HealthCheckResponse call() {
-        HealthCheckResponseBuilder responseBuilder = HealthCheckResponse.named("keycloak connection health check");
+        HealthCheckResponseBuilder responseBuilder = HealthCheckResponse.named("Readiness Probe")
+                .withData("Keycloak URL", REALM_URL);
         try {
             simulateKeycloakConnectionVerification();
-            responseBuilder.up()
-                    .withData("kc url",REALM_URL)
-                    .build();
-
-        }catch (IllegalStateException e){
+            responseBuilder.up();
+        } catch (IllegalStateException e) {
             responseBuilder.down();
         }
 
 
-        return HealthCheckResponse.up("keycloak connection health check");
+        return responseBuilder.build();
+
     }
 
     /**
@@ -68,7 +68,7 @@ public class ReadinessHealthCheck implements HealthCheck {
             e.printStackTrace();
         }
         if (!kc_present) {
-            throw new IllegalStateException("Cannot contact keycloak realm");
+            throw new IllegalStateException("Cannot contact keycloak Server");
         }
     }
 
