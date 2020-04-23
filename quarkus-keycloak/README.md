@@ -75,4 +75,5 @@ docker exec -it keycloak /opt/jboss/keycloak/bin/standalone.sh -Djboss.socket.bi
 docker cp -R keycloak:/tmp/ .
 ```
 ## NOTE
-there's currently a bug in quarkus while using mp.jwt.verify.publickey.location in native mode. [issues 6740](https://github.com/quarkusio/quarkus/issues/6740). This should be fixed in the next release 1.4.0.Final
+there's currently a bug in "mp.jwt.verify.publickey.location" in native mode with urls. [issues 6740](https://github.com/quarkusio/quarkus/issues/6740). You can put the certificate in a certificate-name.pem file instead.
+This should be fixed in the next release 1.4.0.Final
