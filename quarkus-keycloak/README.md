@@ -74,3 +74,5 @@ run with an offset of 100 otherwise it will find the ports used by the actual co
 docker exec -it keycloak /opt/jboss/keycloak/bin/standalone.sh -Djboss.socket.binding.port-offset=100 -Dkeycloak.migration.action=export -Dkeycloak.migration.provider=singleFile -Dkeycloak.migration.realmName=kyoumatrix -Dkeycloak.migration.usersExportStrategy=REALM_FILE -Dkeycloak.migration.provider=dir -Dkeycloak.migration.dir=/tmp
 docker cp -R keycloak:/tmp/ .
 ```
+## NOTE
+there's currently a bug in quarkus while using mp.jwt.verify.publickey.location in native mode. [issues 6740](https://github.com/quarkusio/quarkus/issues/6740). This should be fixed in the next release 1.4.0.Final
