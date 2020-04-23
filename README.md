@@ -10,6 +10,7 @@ A collection of home made scripts, tutorials and good practices.
 2. [micro-data-center](https://github.com/Kyouuma/Tutorials/tree/master/micro-data-center): Tag along on my blog to make your laptop a production grade environment for kubernetes development.
 3. [singleton-testcontainers](https://github.com/Kyouuma/Tutorials/tree/master/singleton-testcontainers): Embrace the power of containers in automated testing for java applications. I focused in this example on the singleton pattern.
 4. [quarkus-native-development](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-native-development) : run a java web application in 0.008s!
+5. [quarkus-keycloak](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-keycloak) : Securing APIs with keycloak 
 
 
 
