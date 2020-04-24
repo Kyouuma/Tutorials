@@ -1,7 +1,9 @@
 # Random Tutorials
 
 I have a diverse background, ranging from electronics, security to devops. Combined with a love for [writing](https://kyouuma.blogspot.com/) This repository was born. 
-[tutorials](April-Content-Launch-DEVOPS-1200x628-1200x628.png)
+
+![tutorials](April-Content-Launch-DEVOPS-1200x628-1200x628.png)
+
 A collection of home made scripts, tutorials and good practices.
 
 ## Content
