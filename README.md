@@ -8,7 +8,10 @@ A collection of home made scripts, tutorials and good practices.
 
 ## Content
 
+
 . [apicurio stack](https://github.com/Kyouuma/api-management-docker-compose): Apicurio Studio, Microcks, Apicurio Registry using docker-compose with keycloak authentication
+
+. [k8s on proxmox](https://kyouuma.blogspot.com/2020/05/4-node-kubernetes-cluster-behind.html): A 4 node kubernetes cluster on proxmox hypervisor behind a PFsense Firewall.
 
 . [gitlab-clone-all-groups](https://github.com/Kyouuma/Tutorials/tree/master/gitlab-clone-all-groups): A script to clone a gitlab server, namespace, group. you can adjust it to your preferences. 
 
