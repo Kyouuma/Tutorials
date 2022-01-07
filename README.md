@@ -7,12 +7,12 @@ I have a diverse background, ranging from electronics, security to devops. Combi
 A collection of home made scripts, tutorials and good practices.
 
 ## Content
-
-1. [gitlab-clone-all-groups](https://github.com/Kyouuma/Tutorials/tree/master/gitlab-clone-all-groups): A script to clone a gitlab server, namespace, group. you can adjust it to your preferences. 
-2. [micro-data-center](https://github.com/Kyouuma/Tutorials/tree/master/micro-data-center): Tag along on my blog to make your laptop a production grade environment for kubernetes development.
-3. [singleton-testcontainers](https://github.com/Kyouuma/Tutorials/tree/master/singleton-testcontainers): Embrace the power of containers in automated testing for java applications. I focused in this example on the singleton pattern.
-4. [quarkus-native-development](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-native-development) : run a java web application in 0.008s!
-5. [quarkus-keycloak](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-keycloak) : Securing APIs with keycloak 
+. [apicurio stack](https://github.com/Kyouuma/api-management-docker-compose): Apicurio Studio, Microcks, Apicurio Registry using docker-compose with keycloak authentication
+. [gitlab-clone-all-groups](https://github.com/Kyouuma/Tutorials/tree/master/gitlab-clone-all-groups): A script to clone a gitlab server, namespace, group. you can adjust it to your preferences. 
+. [micro-data-center](https://github.com/Kyouuma/Tutorials/tree/master/micro-data-center): Tag along on my blog to make your laptop a production grade environment for kubernetes development.
+. [singleton-testcontainers](https://github.com/Kyouuma/Tutorials/tree/master/singleton-testcontainers): Embrace the power of containers in automated testing for java applications. I focused in this example on the singleton pattern.
+. [quarkus-native-development](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-native-development) : run a java web application in 0.008s!
+. [quarkus-keycloak](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-keycloak) : Securing APIs with keycloak 
 
 
 
