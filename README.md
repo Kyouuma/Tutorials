@@ -9,7 +9,9 @@ A collection of home made scripts, tutorials and good practices.
 ## Content
 
 
-. [apicurio stack](https://github.com/Kyouuma/api-management-docker-compose): Apicurio Studio, Microcks, Apicurio Registry using docker-compose with keycloak authentication
+. [Highly Available Pfsense installation](https://kyouuma.blogspot.com/2020/04/highly-available-pfsense-cluster-on.html): setup a HA pfsense cluster on proxmox.
+
+. [apicurio stack](https://github.com/Kyouuma/api-management-docker-compose): Apicurio Studio, Microcks, Apicurio Registry using docker-compose with keycloak authentication.
 
 . [k8s on proxmox](https://kyouuma.blogspot.com/2020/05/4-node-kubernetes-cluster-behind.html): A 4 node kubernetes cluster on proxmox hypervisor behind a PFsense Firewall.
 
