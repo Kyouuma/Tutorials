@@ -20,15 +20,15 @@ A collection of home made scripts, tutorials and good practices.
 
 . [ secure k8s cluster on proxmox](https://kyouuma.blogspot.com/2020/05/4-node-kubernetes-cluster-behind.html): A 4 node kubernetes cluster on proxmox hypervisor behind a PFsense Firewall.
 
-. [gitlab-clone-all-groups](https://github.com/Kyouuma/Tutorials/tree/master/gitlab-clone-all-groups): A script to clone a gitlab server, namespace, group. you can adjust it to your preferences. 
+. [Clone gitlab groups and subgroups](https://github.com/Kyouuma/Tutorials/tree/master/gitlab-clone-all-groups): A script to clone a gitlab server, namespace, group. you can adjust it to your preferences. 
 
-. [micro-data-center](https://github.com/Kyouuma/Tutorials/tree/master/micro-data-center): Tag along on my blog to make your laptop a production grade environment for kubernetes development.
+. [Setup a micro data center for k8s development](https://github.com/Kyouuma/Tutorials/tree/master/micro-data-center): Tag along on my blog to make your laptop a production grade environment for kubernetes development.
 
-. [unit and integration tests using testcontainers](https://github.com/Kyouuma/Tutorials/tree/master/singleton-testcontainers): Embrace the power of containers in automated testing for java applications. I focused in this example on the singleton pattern.
+. [Unit and integration tests using testcontainers](https://github.com/Kyouuma/Tutorials/tree/master/singleton-testcontainers): Embrace the power of containers in automated testing for java applications. I focused in this example on the singleton pattern.
 
-. [quarkus native development](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-native-development) : run a java web application in 0.008s!
+. [Quarkus native development](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-native-development) : run a java web application in 0.008s!
 
-. [quarkus-keycloak](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-keycloak) : Securing quarkus restful API using keycloak and openID Connect.
+. [Quarkus API secured by keycloak](https://github.com/Kyouuma/Tutorials/tree/master/quarkus-keycloak) : Securing quarkus restful API using keycloak and openID Connect.
 
 
 
