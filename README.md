@@ -8,6 +8,11 @@ A collection of home made scripts, tutorials and good practices.
 
 ## Content
 
+. [Secrets management](https://kyouuma.blogspot.com/2020/04/injecting-security-into-devops-pipeline.html): My personal thoughts on secret sprawl and how i mitigated them using hashicorp vault in a decentralized environment. 
+
+. [Devsecops through the software development lifecycle](https://kyouuma.blogspot.com/2020/04/injecting-security-into-devops-pipeline.html): Injecting security into a java application lifecycle using jenkins and other tools on kubernetes.
+
+. [Free letsencrypt certificate for proxmox](https://kyouuma.blogspot.com/2020/04/setup-free-lets-encrypt-certificate-on.html): setup https on proxmox ui using Let's Encrypt acme.sh script.
 
 . [Highly Available Pfsense installation](https://kyouuma.blogspot.com/2020/04/highly-available-pfsense-cluster-on.html): setup a HA pfsense cluster on proxmox.
 
