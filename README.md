@@ -1,4 +1,4 @@
-# Random Tutorials
+# Random Tutorials  [website](https://kyouuma.github.io/Tutorials/)
 
 I have a diverse background, ranging from electronics, security to devops. Combined with a love for [writing](https://kyouuma.blogspot.com/) This repository was born. 
 
